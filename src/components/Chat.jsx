@@ -41,7 +41,9 @@ const ChatContainer = styled.div`
   cursor: pointer;
   img {
     width: 50px;
+    height: 50px;
     border-radius: 50%;
+    object-fit: contain;
   }
 
   div {

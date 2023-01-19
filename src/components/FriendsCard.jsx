@@ -25,9 +25,11 @@ const CardContainer = styled.div`
     width: 100%;
     height: auto;
     border-radius: 5px;
-    object-fit: cover;
+    object-fit: contain;
     max-width: 100px;
+    max-height: 100px;
     min-width: 80px;
+    min-height: 80px;
   }
   h6 {
     font-weight: 500;
