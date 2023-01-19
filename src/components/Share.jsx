@@ -29,8 +29,9 @@ const Share = () => {
                 userId: user._id,
               };
               try {
-                axios.post("/posts/", newPost);
-                window.location.reload();
+                axios
+                  .post("/posts/", newPost)
+                  .then(() => window.location.reload());
               } catch (error) {
                 console.log(error, "Error posting");
               }
@@ -48,8 +49,7 @@ const Share = () => {
         userId: user._id,
       };
       try {
-        axios.post("/posts", newPost);
-        window.location.reload();
+        axios.post("/posts", newPost).then(() => window.location.reload());
       } catch (error) {
         console.log(error, "Error posting");
       }
