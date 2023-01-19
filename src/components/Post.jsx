@@ -177,7 +177,7 @@ const PostContent = styled.div`
   width: 100%;
 
   p {
-    padding: 0px 10px 10px;
+    padding: 0px 10px 10px 20px;
     color: #e4e6eb;
     font-size: 14px;
     font-weight: 300;
