@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 250ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.primaryBtn {
+  padding: 4px 15px;
+  color: #e4e6eb;
+  background-color: #0165e1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.primaryBtn:hover {
+  background-color: #0353b4;
+}
