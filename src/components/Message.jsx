@@ -50,7 +50,7 @@ const MessageContainer = styled.div`
   .messageBottom {
     font-size: 10px;
     color: gray;
-    padding: 2px 50px 3px;
+    padding: 2px 0 3px 50px;
     margin-bottom: 5px;
   }
 
